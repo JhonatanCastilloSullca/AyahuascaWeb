@@ -1,0 +1,27 @@
+
+import './index.css'
+import { GeneralContext } from '../../context/general';
+import { useContext } from 'react';
+import TituloSection from '../../componentes/TituloSection';
+import CertificadoCarousel from '../../componentes/CertificadoCarousel';
+
+function Certificados() {
+
+
+    const { general: GeneralData } = useContext(GeneralContext);
+    const cabeceraTipo = GeneralData.certificados;
+
+
+    return (
+        <>
+            <div className="">
+                <div className="">
+                    <TituloSection titulo={cabeceraTipo.titulo} subtitulo={cabeceraTipo.subtitulo} />
+                    <CertificadoCarousel general={cabeceraTipo} />
+                </div>
+            </div>
+        </>
+    )
+}
+export default Certificados
+
