@@ -102,7 +102,7 @@ function NosotrosPage() {
                                                         >
                                                             {item.images.map((images, index) => (
                                                                 <SwiperSlide key={index}>
-                                                                    <img src={images.nombre} alt={`Vertigo-travel-nosotros-${item.id}`} className='w-100 h-360 object-fit-cover border rounded' />
+                                                                    <img src={images.nombre} alt={`Murayari-travel-nosotros-${item.id}`} className='w-100 h-360 object-fit-cover border rounded' />
                                                                 </SwiperSlide>
                                                             ))}
                                                         </Swiper>
@@ -145,7 +145,7 @@ function NosotrosPage() {
                                                         >
                                                             {item.images.map((images, index) => (
                                                                 <SwiperSlide key={index}>
-                                                                    <img src={images.nombre} alt={`Vertigo-travel-nosotros-${item.id}`} className='w-100 h-360 object-fit-cover border rounded' />
+                                                                    <img src={images.nombre} alt={`Murayari-travel-nosotros-${item.id}`} className='w-100 h-360 object-fit-cover border rounded' />
                                                                 </SwiperSlide>
                                                             ))}
                                                         </Swiper>
@@ -203,7 +203,7 @@ function NosotrosPage() {
                                 >
                                     {GeneralData.images.map((images, index) => (
                                         <SwiperSlide key={index}>
-                                            <img src={images.nombre} alt="Vertigo-travel-nosotros" className='w-100 h-560 object-fit-cover border rounded' />
+                                            <img src={images.nombre} alt="Murayari-travel-nosotros" className='w-100 h-560 object-fit-cover border rounded' />
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>

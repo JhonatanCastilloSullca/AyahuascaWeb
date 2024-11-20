@@ -16,7 +16,7 @@ function Servicios() {
                     <div className="row d-flex">
                         <div className="col-md-6">
                             <div className="row">
-                                <div className="img d-flex w-100 align-items-center justify-content-center imgservicios" style={{ backgroundImage: "url('../../../assets/images/Vertigo-nosotros.webp')" }}>
+                                <div className="img d-flex w-100 align-items-center justify-content-center imgservicios" style={{ backgroundImage: "url('../../../assets/images/image14.jpeg')" }}>
                                 </div>
                             </div>
                         </div>

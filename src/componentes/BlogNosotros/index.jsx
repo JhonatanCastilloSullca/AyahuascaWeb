@@ -23,7 +23,7 @@ const BlogNosotros = ({ data }) => {
                                 <Swiper spaceBetween={50} slidesPerView={1}>
                                     {item.images.map((image, imgIndex) => (
                                         <SwiperSlide key={imgIndex}>
-                                            <img src={image.nombre} alt={`Vertigo-travel-nosotros-${imgIndex}`} className='w-100 h-560 object-fit-cover border rounded' />
+                                            <img src={image.nombre} alt={`Murayari-travel-nosotros-${imgIndex}`} className='w-100 h-560 object-fit-cover border rounded' />
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>
@@ -36,7 +36,7 @@ const BlogNosotros = ({ data }) => {
                                 <Swiper spaceBetween={50} slidesPerView={1}>
                                     {item.images.map((image, imgIndex) => (
                                         <SwiperSlide key={imgIndex}>
-                                            <img src={image.nombre} alt={`Vertigo-travel-nosotros-${imgIndex}`} className='w-100 h-560 object-fit-cover border rounded' />
+                                            <img src={image.nombre} alt={`Murayari-travel-nosotros-${imgIndex}`} className='w-100 h-560 object-fit-cover border rounded' />
                                         </SwiperSlide>
                                     ))}
                                 </Swiper>

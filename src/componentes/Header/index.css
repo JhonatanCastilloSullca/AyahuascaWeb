@@ -6,9 +6,17 @@
     top: 0 !important;
 }
 
+
 .navbar.active {
-    background: linear-gradient(180deg, var(--primary) 0%, #1b312c 100%) !important
+    background-image: 
+        linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0)),
+        url(../../assets/images/footer-vertigo-transparent3.jpg) !important;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
+
+
 
 .navbar-logo {
     color: #fff !important;

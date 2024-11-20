@@ -1,7 +1,7 @@
 {
     "header": {
         "home": "INICIO",
-        "about": "NOSOTROS",
+        "about": "QUIENES SOMOS",
         "contact": "CONTACTO",
         "search": "Buscar Tours...",
         "cart": "CARRITO",
@@ -43,7 +43,7 @@
         "mensaje-testimonio": "Descubre el Centro de Sanación Awkipuma, un lugar único en Iquitos, Perú, dedicado a retiros de ayahuasca en la impresionante selva amazónica. Con más de 55 años de experiencia en prácticas de sanación ancestral, Awkipuma ofrece un entorno seguro y sagrado para la exploración espiritual y personal. "
     },
     "nosotros": {
-        "nosotros": "Nosotros",
+        "nosotros": "Quienes Somos",
         "sobre-nosotros": "Sobre Nosotros"
     },
     "contacto": {

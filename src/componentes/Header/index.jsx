@@ -53,7 +53,7 @@ function Header() {
                     <div className="drpwdpwm-menu">
                         <Row>
                             <Container className=' d-flex justify-content-center align-items-start'>
-                                <Col md={8}>
+                                <Col md={12}>
                                     <Row className=' d-flex justify-content-center align-items-start'>
                                         {menu.detalles && menu.detalles.length > 0 ? (
                                             menu.detalles.map((categoria) => (
@@ -82,6 +82,7 @@ function Header() {
                                         )}
                                     </Row>
                                 </Col>
+{/* 
                                 <Col md={4} className='d-flex justify-content-center align-items-center'>
                                     <div className='d-flex justify-content-center rounded'>
                                         <img
@@ -90,7 +91,8 @@ function Header() {
                                             className='img-fluid p-4 img-menu'
                                         />
                                     </div>
-                                </Col>
+                                </Col> */}
+
                             </Container>
                         </Row>
                     </div>
@@ -218,6 +220,11 @@ function Header() {
                                             {t("header.home")}
                                         </NavLink>
                                     </li>
+                                    <li className="nav-item d-flex align-items-center text-white">
+                                        <NavLink to='/nosotros' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+                                            {t("header.about")}
+                                        </NavLink>
+                                    </li>
                                     {GeneralData.filter(menu => menu.tipo === '1').map((menu) => (
                                         <li className="nav-item d-flex align-items-center text-white" key={menu.id}>
                                             <div
@@ -232,11 +239,7 @@ function Header() {
                                             </div>
                                         </li>
                                     ))}
-                                    <li className="nav-item d-flex align-items-center text-white">
-                                        <NavLink to='/nosotros' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-                                            {t("header.about")}
-                                        </NavLink>
-                                    </li>
+                                    
                                     <li className="nav-item d-flex align-items-center text-white">
                                         <NavLink to='/contacto' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
                                             {t("header.contact")}

@@ -16,7 +16,7 @@ function Footer() {
     return (
         <>
             <FloatingWhatsApp
-                phoneNumber={GeneralData[0]?.numero}
+                phoneNumber={`+51${GeneralData[0]?.numero}`}
                 accountName={GeneralData[0]?.nombre}
                 avatar="https://www.w3schools.com/howto/img_avatar.png"
                 chatMessage="Hola soy un agente de Ayahuasca Murayari"
@@ -62,11 +62,7 @@ function Footer() {
                                             {t("header.home")}
                                         </NavLink>
                                     </li>
-                                    <li>
-                                        <NavLink to='/tours' className="py-2 d-block">
-                                            TOURS
-                                        </NavLink>
-                                    </li>
+                                    
                                     <li>
                                         <NavLink to='/nosotros' className="py-2 d-block">
                                             {t("header.about")}
@@ -77,11 +73,7 @@ function Footer() {
                                             {t("header.contact")}
                                         </NavLink>
                                     </li>
-                                    <li>
-                                        <NavLink to='/' className="py-2 d-block">
-                                            {t("header.cart")}
-                                        </NavLink>
-                                    </li>
+                                    
                                     <li>
                                         <NavLink to='/terminos' className="py-2 d-block">
                                             TERMINOS Y CONDICIONES

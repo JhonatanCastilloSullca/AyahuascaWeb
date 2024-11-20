@@ -1,7 +1,7 @@
 {
     "header": {
         "home": "HOME",
-        "about": "ABOUT US",
+        "about": "WHO WE ARE",
         "contact": "CONTACT",
         "search": "Search Tours...",
         "cart": "CART",
@@ -43,7 +43,7 @@
         "mensaje-testimonio": "Discover the Awkipuma Healing Center, a unique location in Iquitos, Peru, dedicated to ayahuasca retreats in the stunning Amazon rainforest. With over 55 years of experience in ancient healing practices, Awkipuma offers a safe and sacred environment for spiritual and personal exploration."
     },
     "nosotros": {
-        "nosotros": "Us",
+        "nosotros": "Who we Are",
         "sobre-nosotros": "About Us"
     },
     "contacto": {

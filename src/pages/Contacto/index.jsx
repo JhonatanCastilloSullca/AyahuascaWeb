@@ -82,29 +82,29 @@ function ContactPage() {
                     <Row className="d-flex justify-content-center contact-info gap-4">
                         <Col md={3} className="d-flex justify-content-center border-primary border rounded">
                             <div className="align-self-stretch box p-4 text-center">
-                                <a href="https://maps.app.goo.gl/u8bvUGj9BcU3UnWc8" target="_blank" rel="noopener noreferrer" className="icon-contact d-flex align-items-center justify-content-center">
+                                <a href="https://maps.app.goo.gl/MgUe27YdvDA9Xeee8" target="_blank" rel="noopener noreferrer" className="icon-contact d-flex align-items-center justify-content-center">
                                     <FaLocationDot className='icon-fa' />
                                 </a>
                                 <h3 className="mb-2">{t("contacto.ubicacion-nuestro-local")}</h3>
-                                <p>C. Plateros 394, Cusco, Perú</p>
+                                <p>Centro Poblado Tamshiyacu s/n - Río Amazonas - Iquitos - Peru</p>
                             </div>
                         </Col>
                         <Col md={3} className="d-flex justify-content-center border-primary border rounded">
-                            <div className="align-self-stretch box p-4 text-center" onClick={() => window.location.href = 'tel:+51990757584'}>
+                            <div className="align-self-stretch box p-4 text-center" onClick={() => window.location.href = 'tel:+51979521819'}>
                                 <div className="icon-contact d-flex align-items-center justify-content-center">
                                     <FaPhone className='icon-fa' />
                                 </div>
                                 <h3 className="mb-2">{t("contacto.numero-contacto")}</h3>
-                                <p>+51 990 757 584</p>
+                                <p>+51 979 521 819</p>
                             </div>
                         </Col>
                         <Col md={3} className="d-flex justify-content-center border-primary border rounded">
                             <div className="align-self-stretch box p-4 text-center">
-                                <a href="mailto:info@vertigotravelperu.com" className="icon-contact d-flex align-items-center justify-content-center">
+                                <a href="mailto:info@ayahuascamurayari.com.com" className="icon-contact d-flex align-items-center justify-content-center">
                                     <MdMarkEmailRead className='icon-fa' />
                                 </a>
                                 <h3 className="mb-2">{t("contacto.direaccion-email")}</h3>
-                                <p>info@vertigotravelperu.com</p>
+                                <p>info@ayahuascamurayari.com</p>
                             </div>
                         </Col>
                     </Row>
